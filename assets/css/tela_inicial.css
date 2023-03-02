@@ -129,7 +129,7 @@ a{
 }
 .sub-titulo{
     position: absolute;
-    top:85%;
+    bottom: 0;
     transition: all 0.5s ease-out;
 }
 .img-titulo.init, .sub-titulo.init{
