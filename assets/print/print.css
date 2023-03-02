@@ -136,7 +136,7 @@ font-weight: 700;
         content: "";
       }
     
-
+      figcaption{text-align: center;}
 
       #marcadaguaLogo {
         display: block !important;
