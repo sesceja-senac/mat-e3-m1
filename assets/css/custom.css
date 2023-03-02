@@ -879,18 +879,19 @@ div.bloco4-pg3 > div.container{
     height:250px;
     background-image: url('../../img/bt_qualitativa.png');
     background-repeat: no-repeat;
+    background-size: contain;
+    transition: all .4s;
 }
-.bt_quali:hover{
-    background-image: url('../../img/bt_qualitativa_hover.png');
+.bt_quali:hover, .bt_quant:hover{
+    transform: scale(1.1);
 }
 .bt_quant{
     width: 250px;
     height:250px;
     background-image: url('../../img/bt_quantitativa.png');
     background-repeat: no-repeat;
-}
-.bt_quant:hover{
-    background-image: url('../../img/bt_quantitativa_hover.png');
+    background-size: contain;
+    transition: all .4s;
 }
 
 /* custom */
