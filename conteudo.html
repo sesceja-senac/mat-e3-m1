@@ -1,0 +1,1107 @@
+<!doctype html>
+<html lang="pt-br">
+
+<head>
+    <title>Matemática e suas tecnologias</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS v5.0.2 -->
+    <link rel="stylesheet" href="assets/css/preloader.css">
+    <link rel="stylesheet" href="assets/bootstrap/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/animate.min.css" />
+    <link rel="stylesheet" href="assets/fa/css/all.min.css">
+    <link rel="stylesheet" href="assets/css/template.css">
+    <link rel="stylesheet" href="assets/css/jquery-ui.min.css">
+    <link rel="stylesheet" href="assets/css/custom.css">
+    <link rel="stylesheet" href="assets/css/lt-estilos.css">
+    <link rel="stylesheet" href="assets/css/aos.css">
+    <!-- <link rel="stylesheet" href="assets_obj/css/style-olimpiadas-verdadeiro-ou-falso.css"> -->
+
+    <link rel="stylesheet" href="drag/js/dragula.css">
+    <link rel="stylesheet" href="drag/css/game-custom.css">
+    <link rel="stylesheet" href="assets/print/print.css">
+</head>
+
+<body class="bg-sesc">
+    <div class="preloader">
+        <div class="anim"></div>
+        <h1>Aguarde enquanto o conteúdo é carregado.</h1>
+    </div>
+    <!-- MARCA D´ÁGUA -->
+    <img src="assets/img/logo_sesc_horizontal.svg" id="marcadaguaLogo">
+
+    <header id="topo" class="sesc no-print">
+        <img src="assets/img/cabecalho/cabecalho.png" class="d-none d-lg-block img-fluid" alt="">
+    </header>
+    <!-- Section principal deve ter o booklet, pois faz parte do print.js -->
+    <section id="booklet">
+        <!--Dentro do section devemos ter um elemento com a classe paginas, para funcionar a paginação/print-->
+        <header class="titulo-conteudo mb-0 print">
+            <div class="container" style="padding-top:1px">
+                <!--titulo do curso para o print e leitor de tela-->
+                <h1 id="nome-curso" class="d-none print mt-0 text-center w-100">Matemática e suas Tecnologias
+                </h1>
+                
+                    <button data-pdf="true" name="button" class="bt-print bto-imprimir no-print"><i class="fas fa-print "></i> imprimir</button>
+                
+            </div>
+        </header>
+        <section class="paginas">
+                      <!-- PG1 -->
+                    <div class="pagina">
+                        <img src="img/elem_float_1.png" class="no-print rellax-esquerda-big relax-top18" data-rellax-speed="4">
+
+                        <div class="bloco1-pg1">
+                            <div class="container p-0"><img src="img/ajustes/bg1e2_papel_topo.png" alt="" class="no-print img-fluid"></div>
+                            <div class="container container-texto">
+                                
+                                <h2>As pesquisas estatísticas no dia a dia </h2>
+                                <p>
+                                    Na primeira etapa deste curso trabalhamos a educação financeira, estudando os tributos, os impostos, as taxas, os juros, as compras, os investimentos, o salário mínimo e o valor da cesta básica nas principais capitais do país.  
+                                </p>
+                                <p>
+                                    Você já pensou em quanto gasta todos os meses com alimentação? Segundo o G1 (2022), o Departamento Intersindical de Estatística e Estudos Socioeconômicos (Dieese) afirma o seguinte: 
+                                </p>
+                                <p class="padding-left">
+                                    Considerando o salário mínimo líquido, em julho de 2022, após o desconto de 7,5% da Previdência Social, o trabalhador precisou comprometer 67,83% da remuneração para adquirir os produtos da cesta básica, que é suficiente para alimentar um adulto durante um mês. Em junho de 2022, o percentual foi de 69,31% e, em julho de 2021, ficou em 62,95%. 
+                                </p>
+                                <p>
+                                    Note a partir desses percentuais que grande parte do salário mínimo fica comprometido com a alimentação, o que nos faz refletir sobre a insuficiência desse valor nos dias atuais para suprir as necessidades básicas do ser humano.  
+                                </p>
+                                <p>
+                                    Você deve ter a sensação de que a cada ano que passa o seu poder de compra diminui e o percentual do seu salário comprometido com alimentação fica maior, não é mesmo? E como podemos chegar a essa conclusão? Para que você observe melhor essa variação de percentual, organizamos esses dados na seguinte figura: 
+                                </p>
+                            <!-- </div>
+                        </div>
+                        <div class="bloco2-pg1">
+                            <div class="container"> -->
+                                <figure>
+                                    <img src="img/figura01.png" class="img-fluid d-block m-auto evitar-quebra" data-aos="zoom-in" alt="A imagem mostra três colunas com três informações. A primeira coluna informa o valor da cesta básica no ano de 2022, que é de R$ 750,74, e no ano de 2012, com o valor de R$ 304,90. Na coluna do meio, o valor do salário mínimo no ano de 2022 é de R$ 1.212 e, em 2012, era de R$ 622. A última coluna informa que o percentual de comprometimento do salário mínimo em 2022 é de 61,94% e, em 2012, era de 49,01%. ">
+                                    <figcaption>Figura 1 – Valor da cesta básica e o quanto ele compromete do salário mínimo no mês de novembro de 2022 
+                                        <br>
+                                        Fonte: Sesc EJA EAD (2022) </figcaption>
+                                </figure>
+                                <p>
+                                    O Dieese apresenta um infográfico com a síntese do preço médio da cesta básica para o mês de novembro de 2022 em algumas capitais do Brasil. Para comparar os valores, clique ou toque nas capitais em destaque.  
+                                </p>
+                                <figure>
+                                    <div class="map-pin">
+                                        
+                                        <img src="img/figura02.png" usemap="#image-map" class="img-fluid d-block m-auto" data-aos="zoom-in" alt="A imagem mostra o mapa do Brasil, separado por Estados. Os Estados pesquisados estão em verde e os Estados não pesquisados estão em cinza. Nos Estados em verde consta o valor da cesta básica no ano de 2022. No topo da imagem há o título “Valor médio em novembro de 2022”. ">
+                                        <div id="pin-belem" data-bs-toggle="tooltip" data-bs-trigger="click hover" data-bs-placement="top" data-bs-title="Belém: R$ 624,29" class="pin">
+
+                                        </div>
+                                        <div id="pin-fortaleza" data-bs-toggle="tooltip" data-bs-trigger="click hover" data-bs-placement="top" data-bs-title="Fortaleza: R$ 630,67" class="pin">
+
+                                        </div>
+                                        <div id="pin-natal" data-bs-toggle="tooltip" data-bs-trigger="click hover" data-bs-placement="top" data-bs-title="Natal: R$ 566,95" class="pin">
+
+                                        </div>
+                                        <div id="pin-jp" data-bs-toggle="tooltip" data-bs-trigger="click hover" data-bs-placement="top" data-bs-title="João Pessoa: R$ 552,43" class="pin">
+
+                                        </div>
+                                        <div id="pin-recife" data-bs-toggle="tooltip" data-bs-trigger="click hover" data-bs-placement="top" data-bs-title="Recife: R$ 551,30" class="pin">
+
+                                        </div>
+                                        <div id="pin-aracaju" data-bs-toggle="tooltip" data-bs-trigger="click hover" data-bs-placement="top" data-bs-title="Aracaju: R$ 511,97" class="pin">
+
+                                        </div>
+                                        <div id="pin-salvador" data-bs-toggle="tooltip" data-bs-trigger="click hover" data-bs-placement="top" data-bs-title="Salvador: R$ 550,67" class="pin">
+
+                                        </div>
+                                        <div id="pin-brasilia" data-bs-toggle="tooltip" data-bs-trigger="click hover" data-bs-placement="top" data-bs-title="Brasília: R$ 712,20" class="pin">
+
+                                        </div>
+                                        <div id="pin-goiania" data-bs-toggle="tooltip" data-bs-trigger="click hover" data-bs-placement="top" data-bs-title="Goiânia: R$ 689,49" class="pin">
+
+                                        </div>
+                                        <div id="pin-campog" data-bs-toggle="tooltip" data-bs-trigger="click hover" data-bs-placement="top" data-bs-title="Campo Grande: R$ 738,53" class="pin">
+
+                                        </div>
+                                        <div id="pin-bh" data-bs-toggle="tooltip" data-bs-trigger="click hover" data-bs-placement="top" data-bs-title="Belo Horizonte: R$ 693,37" class="pin">
+
+                                        </div>
+                                        <div id="pin-vitoria" data-bs-toggle="tooltip" data-bs-trigger="click hover" data-bs-placement="top" data-bs-title="Vitória: R$ 713,57" class="pin">
+
+                                        </div>
+                                        <div id="pin-rj" data-bs-toggle="tooltip" data-bs-trigger="click hover" data-bs-placement="top" data-bs-title="Rio de Janeiro: R$ 749,25" class="pin">
+
+                                        </div>
+                                        <div id="pin-sp" data-bs-toggle="tooltip" data-bs-trigger="click hover" data-bs-placement="top" data-bs-title="São Paulo: R$ 782,68" class="pin">
+
+                                        </div>
+                                        <div id="pin-cwb" data-bs-toggle="tooltip" data-bs-trigger="click hover" data-bs-placement="top" data-bs-title="Curitiba: R$ 709,84" class="pin">
+
+                                        </div>
+                                        <div id="pin-floripa" data-bs-toggle="tooltip" data-bs-trigger="click hover" data-bs-placement="top" data-bs-title="Florianópolis: R$ 776,14" class="pin">
+
+                                        </div>
+                                        <div id="pin-poa" data-bs-toggle="tooltip" data-bs-trigger="click hover" data-bs-placement="top" data-bs-title="Porto Alegre: R$ 781,52" class="pin">
+
+                                        </div>
+                                    
+                                    </div>
+                                    <figcaption>Figura 2 – Valor médio em novembro de 2022 <br>
+                                        Fonte: Departamento Intersindical de Estatística e Estudos Socioeconômicos (2022) 
+                                    </figcaption>  
+                                </figure>
+                                <div class="mobile-map print">
+                                    <ol>
+                                        <li>Fortaleza: R$ 630,67</l>
+                                        <li>Natal: R$ 566,95</li>
+                                        <li>João Pessoa: R$ 552,43</li>
+                                        <li>Recife: R$ 551,30</li>
+                                        <li>Aracaju: R$ 511,97</li>
+                                        <li>Salvador: R$ 550,67</li>
+                                        <li>Brasília: R$ 712,20</li>
+                                        <li>Goiânia: R$ 689,49</li>
+                                        <li>Campo Grande: R$ 738,53</li>
+                                        <li>Belo Horizonte: R$ 693,37</li>
+                                        <li>Vitória: R$ 713,57</li>
+                                        <li>Rio de Janeiro: R$ 749,25</li>
+                                        <li>São Paulo: R$ 782,68</li>
+                                        <li>Curitiba: R$ 709,84</li>
+                                        <li>Florianópolis: R$ 776,14</li>
+                                        <li>Porto Alegre: R$ 781,52</li>
+                                    </ol>
+                                </div>
+                                <!--  -->
+                                <!-- Image Map Generated by http://www.image-map.net/ -->
+                                <p>
+                                    Você conseguiu localizar no gráfico a capital do seu Estado e o valor médio da cesta básica? Se não encontrou, use como referência a capital mais próxima e reflita um pouco sobre o impacto desse valor no seu salário.  
+                                </p>
+                                <p>
+                                    Observe que nem todas as capitais foram pesquisadas, as quais estão em cinza para demonstrar isso. Mas por que nem todas foram pesquisadas? 
+                                </p>
+                                <p>
+                                    Porque nas pesquisas estatísticas não é necessário realizar uma pesquisa com toda a população para se ter um parâmetro ou uma indicação de algo. Basta fazer uma pesquisa com parte da população, o que não é tão simples quanto parece. É necessário seguir o <strong>método estatístico</strong>, que tem a função de utilizar dados para estudar um problema. 
+                                </p>
+                                <p>
+                                    Que tal aprender mais detalhes sobre estatística? No decorrer do módulo, abordaremos alguns conceitos sobre o método estatístico.  
+                                </p>
+                            
+                            </div>
+                            <div class="container p-0"><img src="img/ajustes/bg1e2_papel_fim.png" alt="" class="no-print img-fluid papel-fim"></div>
+                            <img src="img/div_bg3_pag1.png" style="width: 100%;" class="no-print" alt="">
+                        </div>
+                        <div class="bloco3-pg1">
+                            
+                            <img src="img/elem_float_2.png" class="no-print rellax-direita-big relax-top1" data-rellax-speed="4">
+                            <div class="container">
+                                <p>
+                                    Como já estudado, muitas mudanças ocorrem durante os dias, meses e anos. Muitas vezes, em um curto espaço de tempo, é possível observar em nossa realidade mudanças como: uma loja que abriu ou fechou; o desmatamento de uma área considerada de preservação; os investimentos em infraestrutura; as mudanças demográficas, como migrações, deslocamentos de população, entre outras mudanças visíveis ou não.  
+                                </p>
+                                <p>
+                                    Uma dessas mudanças não tão visível aos olhos, mas muito sentida no bolso, refere-se ao poder de compra do brasileiro, que foi afetado com mudanças e ações do tempo. Outras dessas mudanças referem-se ao avanço tecnológico, muito sentido pelas várias gerações como as apresentadas na figura a seguir. 
+                                </p>
+                                <figure>
+                                    <img src="img/figura03.png" class="img-fluid d-block m-auto" data-aos="zoom-in" alt="A imagem é a captura de tela da postagem do canal Diferentona.  O texto da postagem é o seguinte: “A minha geração dos 25-35 anos é muito engraçada, porque a gente teve ICQ, MSN, internet discada, walkman, bate papo uol, discman, MP3, MP4, orkut, disquete, banda larga, internet via rádio, computador com monitor de tubo... bicho a gente viu toda a evolução”. ">
+                                    <figcaption>Figura 3 – Meme da Internet <br>
+
+                                        Fonte: IFunny (2022) </figcaption>
+                                </figure>
+                                <p>
+                                    A tecnologia proporcionou rapidez e abrangência na divulgação das mais diversas informações, sejam elas relevantes ou irrelevantes, verdadeiras ou não. Os meios de comunicação atingiram os mais diversos públicos e, com isso, difundiram a informação, proporcionando ao cidadão mais criticidade e conhecimento, divulgando situações econômicas e sociais do país por meio do tratamento das informações.  
+                                </p>
+                                <p>
+                                    Para um país, estado ou município, é muito importante acompanhar essas mudanças, pois, a partir delas, é possível questionar: quais desafios essas mudanças representam? Como é o retrato atual do seu povo? Quantos são seus habitantes? Onde e como eles vivem? É possível responder a essas e a outras questões com a pesquisa estatística. Na cidade em que você mora, existem inúmeras situações que utilizam a estatística para mensurar quantidades de pessoas, de filhos, de bairros, de casas etc. e também para mensurar a qualidade de vida de seus moradores.  
+                                </p>
+                                <p>
+                                    Toda pesquisa estatística exige diferentes caminhos para sua execução. Mas, em todas elas, é possível definir uma estratégia básica, um percurso investigativo que é composto por algumas etapas. Para que você conheça a construção de uma pesquisa estatística assim como as etapas dela, acompanhe o planejamento e a execução de uma pesquisa em uma cidade fictícia chamada Calculópolis. 
+                                </p>
+                                
+                            </div>
+                        </div>
+                        <div class="bloco4-pg1">
+                            <img src="img/elem_float_1.png" class="no-print rellax-esquerda-big relax-top5" data-rellax-speed="4">
+                            <div class="container">
+                                <h2>A cidade de Calculópolis </h2>
+                                <p>
+                                    Calculópolis é uma cidade relativamente pequena e interiorana, que tem em torno de 4.300 habitantes, distribuídos em dez bairros. Considerando que é muito importante para um município acompanhar as mudanças e tendo como objetivo conhecer melhor o crescimento populacional da cidade e as condições dela, o representante maior do município decidiu atualizar os dados estatísticos. 
+                                </p>
+                                <p>
+                                    Mas, afinal, qual pesquisa será realizada? Serão entrevistados todos os habitantes da cidade? 
+                                </p>
+                                <p>
+                                    Você se lembra do infográfico anterior, que abordava o salário mínimo? A pesquisa não foi realizada com todos os Estados nem toda a população brasileira foi entrevistada. Esse tipo de pesquisa é chamado de <strong>amostral</strong>.  
+                                </p>
+                                <p>
+                                    Assista ao vídeo para conhecer a pesquisa amostral. 
+                                </p>
+                                <iframe class="ytb no-print" src="https://www.youtube.com/embed/0dh5sOI-e3w" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                                <div class="visually-hidden print">
+                                    <p>Em grupos muito grandes, como a população brasileira e a cidade de Calculópolis, e havendo pouco tempo ou pouco investimento disponível para a realização de uma pesquisa, é preferível coletar apenas alguns elementos do conjunto a ser investigado. Esse tipo de investigação é chamado de pesquisa amostral. </p>
+                                    <p>Observando a animação a seguir, perceba que apenas alguns elementos estão sendo escolhidos e, por esse motivo, eles estão em destaque, ou seja, uma parte da população ou coleção é investigada. População ou coleção é a denominação recebida pelo público-alvo da pesquisa, que, nesse caso, são os moradores de Calculópolis. Lembre-se de que as pesquisas nem sempre acontecem com pessoas, mesmo assim, podemos chamar o que for pesquisado de população ou coleção, por exemplo, na pesquisa a respeito da situação de moradia dos habitantes, que pode ser própria, alugada, cedida etc., e também a pesquisa sobre o saneamento etc. </p>
+                                </div>
+                                <p>
+                                    Considerando o que você aprendeu no vídeo, observe na figura a seguir que o círculo maior em azul corresponde à população, ou seja, o todo, e os pequenos círculos amarelos correspondem a uma parcela ou fração dessa população, o que é chamado de <b>amostra</b>. 
+                                </p>
+                                <figure>
+                                    <img src="img/figura04.png" class="img-fluid d-block m-auto" data-aos="zoom-in" alt="A imagem mostra um círculo azul grande. Dentro dele consta a palavra “População” e também quatro círculos menores amarelos com flechas vermelhas apontando para um quadrado amarelo, no qual está a palavra “Amostras”. ">
+                                    <figcaption>Figura 4 – Representação do conceito de população e amostra <br>
+                                        Fonte: Sesc EJA EAD (2022) </figcaption>
+                                </figure>
+                                <p>
+                                    Portanto, esse tipo de pesquisa, que considera um levantamento de amostras do todo, é ideal para uma coleção grande de elementos, ou seja, com muitos itens a serem pesquisados. Além disso, necessita de um investimento menor e também um tempo menor para sua realização. 
+                                </p>
+                                <p>
+                                    Outro exemplo de pesquisa que pode ser estudado é a pesquisa censitária, que está presente no Censo Demográfico do Brasil. Este censo é realizado em toda a população brasileira, o que significa que precisa de um alto investimento e muito tempo para ser realizado. Você já se perguntou por que uma pesquisa <strong>censitária</strong> exige tanto investimento?  
+                                </p>
+                                <p>
+                                    O Censo Demográfico do Brasil é realizado somente a cada dez anos, pois requer um alto investimento financeiro, uma enorme infraestrutura e muitas pessoas para trabalhar na coleta de dados, a fim de chegar a todos os habitantes do País. Além disso, o censo permite comparar dados e entender a evolução de indicadores sociais e é a única pesquisa que chega a todos os domicílios brasileiros. Ele pode ser respondido pela Internet, pelo telefone ou aos já tradicionais recenseadores do IBGE, que vão de porta em porta em cada cidade. O último censo foi realizado em 2010 e o próximo estava previsto para ocorrer em 2020, mas foi adiado em virtude da pandemia de covid-19. 
+                                </p>
+                                <p>
+                                    Assista ao vídeo a seguir para conhecer a pesquisa censitária.  
+                                </p>
+                                <iframe class="ytb no-print" src="https://www.youtube.com/embed/rmYxAjLmA8U" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                                <div class="visually-hidden print">
+                                    <p>A pesquisa censitária é um tipo de levantamento de informações que considera a coleção completa de todos os elementos (valores, pessoas, medidas etc.) a serem estudados. </p>
+                                    <p>Como podemos ver na animação, há quatro pesquisadores realizando o levantamento estatístico de todos (100%) os elementos, neste caso, as pessoas dispostas no centro.  </p>
+                                    <img src="" alt="A imagem mostra um grupo de pessoas, com homens e mulheres, que representa uma população que fica piscando. Nas laterais existem dois pesquisadores de cada lado, segurando uma planilha. ">
+                                    <p>Esse tipo de pesquisa, que considera um levantamento de dados do todo, torna-se ideal para uma coleção pequena de elementos, ou seja, com poucos itens a serem pesquisados, pois ele precisa de um investimento maior e também um tempo maior para sua realização. </p>
+                                </div>
+                                <p>
+                                    A partir desse estudo, fica evidente que a pesquisa censitária se torna inviável, por isso, decidiu-se fazer uma pesquisa amostral na cidade de Calculópolis, por ter custo menor e ser mais rápida.  
+                                </p>
+                            </div>
+                            
+                            <img src="img/div_bg3_pag1.png" class="bloco-divisoria no-print" alt="">
+                        </div>
+                        <div class="bloco5-pg1">
+                            <img src="img/elem_float_4.png" class="no-print rellax-direita-big relax-top1" data-rellax-speed="4">
+                            <div class="container">
+                                <!-- <h1>esquema-bru</h1> -->
+                                <div class="caixa icone praticar">
+                                    <p>
+                                        Classifique cada pesquisa a seguir em <strong>censitária</strong> ou <strong>amostral</strong>: 
+                                    </p>
+                                </div>
+                                <div class="esquemaDaBru">
+                                    <p class="enunciado" tabindex="0" style="color: #fff;">1. Em uma pesquisa estatística, cujo objetivo era determinar a renda das pessoas de uma cidade, foram entrevistadas todas as pessoas que residem na cidade.  </p>
+                                    <button class="alt-e btn-sesc" title="alternativa: ">Amostral</button>
+                                    <button class="alt-c btn-sesc" title="alternativa: ">Censitária</button>
+                                    <div class="feedbacks">
+                                        <p class="f-negativo text-danger  mt-2 mb-2 animate__animated animate__shakeX" style="background-color: #fff;padding: 10px;"><i
+                                                class="fas fa-times"></i> Tente novamente: Uma <b>pesquisa amostral</b> ocorre quando é selecionada apenas uma parte da população (uma amostra). </p>
+                                        <p class="f-positivo text-success mt-2 mb-2 animate__animated animate__shakeY" style="background-color: #fff;padding: 10px;"><i
+                                                    class="fas fa-check"></i> Parabéns! Sua resposta está correta: Uma <b>pesquisa censitária</b> acontece quando a população inteira estiver envolvida, ou seja, quando todo o universo de informações for consultado. </p>
+                                    </div>
+                                </div>
+                                <div class="esquemaDaBru">
+                                    <p class="enunciado" tabindex="0" style="color: #fff;">2. Um restaurante realizou uma pesquisa de satisfação e para isso entrevistou 100 dos 1.500 clientes que no mês de fevereiro. </p>
+                                    <button class="alt-c btn-sesc" title="alternativa: ">Amostral</button>
+                                    <button class="alt-e btn-sesc" title="alternativa: ">Censitária</button>
+                                    <div class="feedbacks">
+                                        <p class="f-negativo text-danger  mt-2 mb-2 animate__animated animate__shakeX" style="background-color: #fff;padding: 10px;"><i
+                                                class="fas fa-times"></i> Tente novamente: Uma <b>pesquisa censitária</b> acontece quando a população inteira estiver envolvida, ou seja, quando todo o universo de informações for consultado. </p>
+                                        <p class="f-positivo text-success mt-2 mb-2 animate__animated animate__shakeY" style="background-color: #fff;padding: 10px;"><i
+                                                    class="fas fa-check"></i> Parabéns! Sua resposta está correta:  Uma <b>pesquisa amostral</b> ocorre quando é selecionada apenas uma parte da população (uma amostra). </p>
+                                    </div>
+                                </div>
+                                <div class="esquemaDaBru">
+                                    <p class="enunciado" tabindex="0" style="color: #fff;">3. Em uma escola com 1.036 estudantes, foi realizada uma pesquisa com todos eles para avaliar se a metodologia educacional adotada pela instituição é adequada ou não aos estudantes.   </p>
+                                    <button class="alt-e btn-sesc" title="alternativa: ">Amostral</button>
+                                    <button class="alt-c btn-sesc" title="alternativa: ">Censitária</button>
+                                    <div class="feedbacks">
+                                        <p class="f-negativo text-danger  mt-2 mb-2 animate__animated animate__shakeX" style="background-color: #fff;padding: 10px;"><i
+                                                class="fas fa-times"></i> Tente novamente: Uma <b>pesquisa amostral</b> ocorre quando é selecionada apenas uma parte da população (uma amostra). </p>
+                                        <p class="f-positivo text-success mt-2 mb-2 animate__animated animate__shakeY" style="background-color: #fff;padding: 10px;"><i
+                                                    class="fas fa-check"></i> Parabéns! Sua resposta está correta: Uma <b>pesquisa censitária</b> acontece quando a população inteira estiver envolvida, ou seja, quando todo o universo de informações for consultado. </p>
+                                    </div>
+                                </div>
+                                <div class="esquemaDaBru">
+                                    <p class="enunciado" tabindex="0" style="color: #fff;">4. João deseja realizar uma pesquisa de preços, pois quer comprar um televisor. Ele pesquisou o preço em apenas três sites de todos os disponíveis na Internet. </p>
+                                    <button class="alt-c btn-sesc" title="alternativa: ">Amostral</button>
+                                    <button class="alt-e btn-sesc" title="alternativa: ">Censitária</button>
+                                    <div class="feedbacks">
+                                        <p class="f-negativo text-danger  mt-2 mb-2 animate__animated animate__shakeX" style="background-color: #fff;padding: 10px;"><i
+                                                class="fas fa-times"></i> Tente novamente: Uma <b>pesquisa censitária</b> acontece quando a população inteira estiver envolvida, ou seja, quando todo o universo de informações for consultado. </p>
+                                        <p class="f-positivo text-success mt-2 mb-2 animate__animated animate__shakeY" style="background-color: #fff;padding: 10px;"><i
+                                                    class="fas fa-check"></i> Parabéns! Sua resposta está correta:  Uma <b>pesquisa amostral</b> ocorre quando é selecionada apenas uma parte da população (uma amostra). </p>
+                                    </div>
+                                </div>
+                                <div class="esquemaDaBru">
+                                    <p class="enunciado" tabindex="0" style="color: #fff;">5. Ana mudou-se recentemente para Calculópolis e precisa matricular sua filha Clara, de 8 anos, em uma escola da cidade. Para isso, Ana visitou todas as escolas. </p>
+                                    <button class="alt-e btn-sesc" title="alternativa: ">Amostral</button>
+                                    <button class="alt-c btn-sesc" title="alternativa: ">Censitária</button>
+                                    <div class="feedbacks">
+                                        <p class="f-negativo text-danger  mt-2 mb-2 animate__animated animate__shakeX" style="background-color: #fff;padding: 10px;"><i
+                                                class="fas fa-times"></i> Tente novamente: Uma <b>pesquisa amostral</b> ocorre quando é selecionada apenas uma parte da população (uma amostra). </p>
+                                        <p class="f-positivo text-success mt-2 mb-2 animate__animated animate__shakeY" style="background-color: #fff;padding: 10px;"><i
+                                                    class="fas fa-check"></i> Parabéns! Sua resposta está correta: Uma <b>pesquisa censitária</b> acontece quando a população inteira estiver envolvida, ou seja, quando todo o universo de informações for consultado. </p>
+                                    </div>
+                                </div>
+                                
+                                <div class="visually-hidden print">
+                                    <p>Gabarito: 1. Censitária 2. Amostral 3. Censitária 4. Amostral 5. Censitária </p>
+                                </div>
+                                
+                                <!--  -->
+                            </div>
+                        </div>
+                        <div class="bloco6-pg1">
+                            <div class="container">
+                                <h2>Etapas da pesquisa estatística</h2>
+                                <p>
+                                    Para realizar a pesquisa amostral na cidade de Calculópolis, é necessário organizar e desenvolver estratégias para a coleta de dados.  
+                                </p>
+                                <p>
+                                    Para isso, a comissão organizadora definiu que realizará a pesquisa com o objetivo de verificar a renda, a quantidade de pessoas na moradia, a quantidade de crianças, a quantidade de homens e mulheres, a existência de banheiros nas residências, a presença de água encanada, o tratamento de esgoto e a coleta de lixo. Essas informações fornecem os parâmetros suficientes para que a administração municipal consiga entender em quais áreas é necessário maior investimento e agir assertivamente na resolução dos problemas da cidade. Esse momento inicial em que se determina o que será pesquisado e os objetivos da realização da pesquisa nos leva a definir a primeira etapa do método de pesquisa.  
+                                </p>
+                                
+                            </div>
+                        </div>
+                        <div class="bloco7-pg1">
+                            
+                            <img src="img/elem_float_5.png" class="no-print rellax-esquerda-big relax-top1" data-rellax-speed="4">
+                            <img src="img/elem_float_6.png" class="no-print rellax-esquerda-big relax-top15" data-rellax-speed="4">
+                            <img src="img/elem_float_7.png" class="no-print rellax-esquerda-big relax-top25" data-rellax-speed="4">
+                            <div class="container pb-1">
+                                <h4>Primeira etapa: definição do problema </h4>
+                                <p>
+                                    Toda pesquisa estatística pretende coletar dados para responder a um problema, ou seja, baseia-se nas seguintes perguntas: “o que vou pesquisar?” e “por que pesquisar?”. 
+                                </p>
+                                <p>
+                                    Mas você sabe por que precisa responder corretamente às perguntas de uma pesquisa? 
+                                </p>
+                                <p>
+                                    Como estudado, toda pesquisa tem um objetivo. Isso quer dizer que as perguntas que serão realizadas precisam nos ajudar a entender determinadas situações de moradores específicos e esclarecer essas situações. Portanto, cada pergunta deve apresentar um motivo para ser realizada.  
+                                </p>
+                                <p>
+                                    Na pesquisa de Calculópolis, por exemplo, ao se questionar o número de banheiros, tem-se como intenção verificar o acesso a um <span data-bs-toggle="tooltip" data-bs-trigger="click hover" class="tooltip-link" data-bs-title="É um conjunto de serviços fundamentais para o desenvolvimento socioeconômico de uma região, entre os quais estão serviços como abastecimento de água, esgotamento sanitário, limpeza urbana, drenagem urbana, manejos de resíduos sólidos e de águas pluviais. ">saneamento básico</span> adequado, pois em residências que não tenham acesso a banheiros existe a possibilidade de maior transmissão de doenças relacionadas ao contato direto com fezes humanas ou com esgoto a céu aberto. 
+                                </p>
+                                <p class="only-print">
+                                    Saneamento básico: É um conjunto de serviços fundamentais para o desenvolvimento socioeconômico de uma região, entre os quais estão serviços como abastecimento de água, esgotamento sanitário, limpeza urbana, drenagem urbana, manejos de resíduos sólidos e de águas pluviais. 
+                                </p>
+                                <p>
+                                    Todos esses dados serão utilizados para traçar o perfil dos moradores do bairro e assim definir, por exemplo, os investimentos em assistência social, lazer e esportes (caso haja muitas crianças no bairro, dado que será obtido ao se questionar a quantidade de crianças no domicílio) e em trabalho (caso haja muitos desempregados, dado que será obtido a partir da pergunta sobre a renda familiar no item “nenhuma renda”). Esses dados servem parar identificar essas e outras situações vulneráveis comuns nas comunidades. 
+                                </p>
+                                <p>
+                                    Essas perguntas serão realizadas em um formulário físico e o questionário será aplicado por um recenseador que visitará as residências. O questionário a seguir foi planejado tendo como referência os formulários aplicados pelo Censo, conforme o modelo em que constam as perguntas que levantam os dados utilizados na tomada de decisão da implementação das políticas públicas.  
+                                </p>
+                                <p class="no-print">Para visualizar o questionário, clique ou toque no botão de <em>download</em>.</p>
+                                <a href="assets/formulario.pdf" target="_blank" rel="noopener noreferrer" class="bt-download my-5 no-print"></a>    
+                            </div>
+                            <div class="only-print" aria-hidden="true">
+                                <img src="img/formulario1.jpg" class="img-fluid center-block">
+                                <img src="img/formulario2.jpg" class="img-fluid center-block">
+                            </div>
+                            <div class="container">
+                                <p>
+                                    Seguindo o processo de pesquisa, a comissão organizadora da pesquisa de Calculópolis definiu que realizará uma <strong>pesquisa amostral</strong>, cuja população são os dois bairros de maior vulnerabilidade social da cidade, de acordo com os dados do censo de 2010. As amostras serão coletadas nos bairros Vila Soma, que tem 86 residências, das quais 30 serão selecionadas aleatoriamente para realização da pesquisa, e Morro da Subtração, que contém 60 residências, das quais 25 serão selecionadas aleatoriamente. A definição do tamanho da amostra é importante para que esta seja uma representação real dos bairros de maior vulnerabilidade social da cidade, por isso, a quantidade de amostras por bairro foi definida a partir de calculadoras amostrais. 
+                                </p>
+
+                                <div class="caixa icone dica" data-aos="zoom-in">
+                                    <h4 class="visually-hidden print">Dica!</h4>
+                                    <p>Pesquise “calculadora amostral” na Internet e calcule a amostra da pesquisa.  </p>
+                                </div>
+
+                                <p>
+                                    Realizado o planejamento da coleta de dados, ou seja, construídas as ferramentas de coleta de dados, é possível agora conceituar a segunda etapa do método de pesquisa. 
+                                </p>
+
+                                <h4>Segunda etapa: planejamento da pesquisa</h4>
+                                <p>
+                                    Após definir o que será pesquisado, chegou o momento de realizar a coleta de dados e, portanto, é necessário realizar o planejamento da pesquisa. No planejamento da pesquisa, define-se a população, o tipo de pesquisa, quem participará da pesquisa, quais instrumentos serão utilizados, ou seja, como a comissão planejará a pesquisa. 
+                                </p>
+                                <p>
+                                    Cada pergunta do questionário deverá assumir uma resposta e essas respostas são chamadas de <strong>variáveis</strong>. As variáveis, portanto, são os dados coletados em cada pergunta realizada e podem ser classificadas em qualitativas ou quantitativas. Você sabe a diferença entre variáveis quantitativas e qualitativas? Algumas perguntas podem ser respondidas utilizando apenas números e outras podem ser respondidas utilizando apenas palavras. 
+                                </p>
+                                <p>Clique ou toque nos botões para conhecer essas variáveis.   </p>
+                                <div class="row my-5">
+                                    <div class="col">
+                                        <div class="bt_quali"  data-bs-toggle="modal" data-bs-target="#quadroPainelModal1"></div>
+                                    </div>
+                                    <div class="col">
+                                        <div class="bt_quant"  data-bs-toggle="modal" data-bs-target="#quadroPainelModal2"></div>
+                                    </div>
+                                </div>
+                                <div class="modal fade" id="quadroPainelModal1" tabindex="-1"
+                                    aria-labelledby="quadroPainelModal1Label" aria-hidden="true">
+                                    <div class="modal-dialog modal-dialog-centered">
+                                        <div class="modal-content">
+                                            <div class="modal-header">
+                                                <h5 class="modal-title" id="quadroPainelModal1Label"> Variável qualitativa </h5>
+                                                <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                                    aria-label="Close"></button>
+                                            </div>
+                                            <div class="modal-body">
+                                                <p>
+                                                    Os dados sugerem a ideia de qualidade ou atributo. As respostas não são formadas por números. Por exemplo, no questionário de Calculópolis há o tipo de domicílio, a forma de abastecimento de água, a forma de escoamento dos dejetos do banheiro ou sanitário e a forma como se dá a coleta de lixo. 
+                                                </p>
+                                              
+                                            </div>
+                                            <div class="modal-footer">
+                                                <button type="button" class="btn btn-secondary"
+                                                    data-bs-dismiss="modal">Fechar</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="modal fade" id="quadroPainelModal2" tabindex="-1"
+                                    aria-labelledby="quadroPainelModal2Label" aria-hidden="true">
+                                    <div class="modal-dialog modal-dialog-centered">
+                                        <div class="modal-content">
+                                            <div class="modal-header">
+                                                <h5 class="modal-title" id="quadroPainelModal2Label"> Variável quantitativa</h5>
+                                                <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                                    aria-label="Close"></button>
+                                            </div>
+                                            <div class="modal-body">
+                                                <p>
+                                                    Os dados representam a ideia de quantidade, ou seja, aquela que pode ser quantificada. Isso quer dizer que os dados assumem um valor numérico. Por exemplo, no questionário de Calculópolis há a renda familiar, a quantidade de pessoas que residem na cidade, a quantidade de homens, a quantidade de mulheres, a quantidade de menores de idade, o número de banheiros na residência. 
+                                                </p>
+                                              
+                                            </div>
+                                            <div class="modal-footer">
+                                                <button type="button" class="btn btn-secondary"
+                                                    data-bs-dismiss="modal">Fechar</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <p>
+                                    Agora que você já estudou as diferenças entre as pesquisas amostrais e censitárias, os conceitos de população e amostra e os tipos de variáveis, já podemos continuar o processo de pesquisa. 
+                                </p>
+                                <p>
+                                    Depois que a comissão organizadora, que fará a pesquisa na cidade de Calculópolis, já definiu os objetivos da pesquisa e já construiu o questionário que será aplicado, ela precisa dar continuidade ao planejamento da pesquisa. Para isso, ela deve definir como serão escolhidos os domicílios que participarão da pesquisa. Dessa maneira, a comissão procurou aprender mais detalhes sobre os diferentes tipos de pesquisas amostrais. 
+                                </p>
+                                <p>
+                                    Vamos entender melhor esses tipos de pesquisas amostrais? 
+                                </p>
+                                <p>
+                                    Clique ou toque para visualizar o conteúdo.  
+                                </p>
+                                <div class="accordion painel-gaitinha" id="accordionExample">
+                                    <div class="accordion-item">
+                                      <h2 class="accordion-header" id="headingOne">
+                                        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                            Amostra aleatória (casual simples) 
+                                        </button>
+                                      </h2>
+                                      <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                                        <div class="accordion-body">
+                                            <p>
+                                                Nesse tipo de seleção de amostras, os elementos da população são rotulados com números ou letras, por exemplo, e os integrantes são selecionados por meio de sorteio (selecionar por sorteio 5 mulheres de um total de 25 pessoas). Observe o GIF a seguir, que mostra a seleção de uma amostra aleatória em uma população: 
+                                            </p>
+                                            <img src="img/gifs/amostra_aleatoria.gif" alt="A animação mostra uma pessoa anotando as possibilidades de selecionar 5 mulheres em um grupo de 25 pessoas." class="img-fluid d-block mx-auto">
+                                        </div>
+                                      </div>
+                                    </div>
+                                    <div class="accordion-item">
+                                      <h2 class="accordion-header" id="headingTwo">
+                                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                          Amostra estratificada 
+                                        </button>
+                                      </h2>
+                                      <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                                        <div class="accordion-body">
+                                            <p>
+                                                Nesse tipo de amostra, a população é dividida em subpopulações (grupos), por exemplo, homens e mulheres. A amostra é obtida selecionando-se independentemente os indivíduos de cada grupo. A porcentagem de indivíduos de cada grupo na população e na amostra é a mesma. Como exemplo, em uma sala de aula, verifica-se que 60% dos estudantes são meninas e 40% são meninos. Como a amostra, nesse caso, terá 10 indivíduos, serão entrevistadas 6 meninas, representando 60% da população, e 4 meninos, representando 40% da população. Observe o GIF, que representa a seleção de uma amostra estratificada em uma população: 
+                                            </p>
+                                            <img src="img/gifs/amostra_estratificada.gif" alt="A animação apresenta uma sala de aula, com um professor separando grupos de 6 meninas e 4 meninos de um total de 30 estudantes." class="img-fluid d-block mx-auto">
+                                        </div>
+                                      </div>
+                                    </div>
+                                    <div class="accordion-item">
+                                      <h2 class="accordion-header" id="headingThree">
+                                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                            Amostra sistemática 
+                                        </button>
+                                      </h2>
+                                      <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                                        <div class="accordion-body">
+                                            <p>Em caso de elementos ordenados, define-se um critério para seleção da amostra. Por exemplo, em caso de elementos ordenados e rotulados com números, escolhem-se números múltiplos de 10, como 10, 20, 30, ou seleciona-se uma amostra a cada 5 minutos; ou, ainda, em uma fábrica, a cada 100 peças produzidas, 1 é retirada aleatoriamente para teste. O GIF a seguir apresenta a seleção de uma amostra sistemática em uma linha de produção: </p>
+                                            <img src="img/gifs/amostra_sistematica.gif" alt="A animação mostra uma linha de produção de garrafas de leite saindo de um equipamento e passando por uma esteira. Nota-se um operário analisando a qualidade de uma garrafa escolhida aleatoriamente." class="img-fluid d-block mx-auto">
+                                        </div>
+                                      </div>
+                                    </div>
+                                  </div>
+                                  <p>
+                                    A comissão que realizará a pesquisa em Calculópolis optou por coletar as amostras aleatoriamente, ou seja, ao acaso. Assim, enumeraram as residências de cada bairro: na Vila Soma, enumeraram as residências de 1 a 86 e, no Morro da Subtração, as residências foram numeradas de 1 a 60. Em seguida, foram sorteadas 30 residências do bairro Vila Soma e 25 residências do bairro Morro da Subtração. 
+                                  </p>
+                                  <h4>Terceira etapa: coleta de dados</h4>
+                                  <p>
+                                    A terceira etapa caracteriza-se pela realização da coleta de dados, ou seja, a definição de quem realizará e pesquisa, como será realizada e a efetivação da pesquisa em si. 
+                                  </p>
+                                  <p>
+                                    Na coleta de dados, um elemento muito importante é o pesquisador ou terceiro responsável pela coleta de dados. No Censo de 2022, por exemplo, a coleta de dados foi realizada por recenseadores, que são devidamente identificados pelo Instituto Brasileiro de Geografia e Estatística (IBGE) para evitar que pessoas mal-intencionadas se passem por pesquisadores e apliquem fraudes. Para que a pesquisa tenha relevância e reflita o mais próximo possível da realidade, é muito importante que você responda honestamente todas as questões e forneça o máximo de informações aos recenseadores. O IBGE divulgou todas as características de identificação que um recenseador deve apresentar.  
+                                  </p>
+                                  
+                                    <figure>
+                                      <img src="img/figura06.png" class="img-fluid d-block m-auto" data-aos="zoom-in" alt="A imagem mostra um homem, como uma máscara facial branca. A imagem tem o título “Como identificar o recenseador ou recenseadora: uniformes ou paramentos são padronizados”. Abaixo disso há o texto: “Todo recenseador usará: colete do IBGE, boné do Censo, crachá de identificação e DMC – dispositivo móvel de coleta”. Ao redor do homem há retângulos com os textos: “Boné do Censo”, “Colete do IBGE”, “Crachá de identificação exposto no colete, na parte frontal, à esquerda para quem vê de frente” e “DMC – dispositivo móvel de coleta”. Na parte inferior da imagem há os logos com os textos “Censo 2022”, “Agência IBGE Notícias” e “IBGE”.">
+                                        <figcaption>Figura 6 – Recenseador ou recenseadora <br>
+                                            Fonte: Diário Gaúcho (2022) </figcaption>
+                                    </figure>
+                                    <p>
+                                        Concluída essa fase de coleta de dados, deve-se dar início ao tratamento das informações recebidas. As estratégias para a organização dos dados e a construção de gráficos para posterior divulgação dos resultados serão o nosso tema de estudo do próximo módulo. Até logo! 
+                                    </p>
+                            </div>
+                        </div>
+                        
+                    </div>
+                    <!-- FIM PG2 -->
+                    <div class="pagina">
+                        <div class="bloco2-pg1">
+                            <div class="container">
+                                
+                                <div class="caixa icone praticar">
+                                    <p>Classifique as variáveis em <b>qualitativas</b> e <b>quantitativas</b>: </p>
+                                </div>
+                                <div class="esquemaDaBru">
+                                    <p class="enunciado" tabindex="0" >Local de trabalho  </p>
+                                    <button class="alt-c btn-sesc" title="alternativa: ">Qualitativas</button>
+                                    <button class="alt-e btn-sesc" title="alternativa: ">Quantitativas</button>
+                                    <div class="feedbacks">
+                                        <p class="f-negativo text-danger  mt-2 mb-2 animate__animated animate__shakeX" style="background-color: #fff;padding: 10px;"><i
+                                                class="fas fa-times"></i> Tente novamente: <b>Variável quantitativa</b> – Os dados exprimem contagens, ou seja, eles podem ser medidos. Isso significa que as respostas assumem um valor numérico. </p>
+                                        <p class="f-positivo text-success mt-2 mb-2 animate__animated animate__shakeY" style="background-color: #fff;padding: 10px;"><i
+                                                    class="fas fa-check"></i> Parabéns! Sua resposta está correta: <b>Variáveis qualitativas</b> – Os dados exprimem uma qualidade ou um atributo. As respostas não são apresentadas em números. </p>
+                                    </div>
+                                </div>
+                                <div class="esquemaDaBru">
+                                    <p class="enunciado" tabindex="0" >Idade em anos </p>
+                                    <button class="alt-e btn-sesc" title="alternativa: ">Qualitativas</button>
+                                    <button class="alt-c btn-sesc" title="alternativa: ">Quantitativas</button>
+                                    <div class="feedbacks">
+                                        <p class="f-negativo text-danger  mt-2 mb-2 animate__animated animate__shakeX" style="background-color: #fff;padding: 10px;"><i
+                                                class="fas fa-times"></i> Tente novamente: <b>Variáveis qualitativas</b> – Os dados exprimem uma qualidade ou um atributo. As respostas não são apresentadas em números. </p>
+                                        <p class="f-positivo text-success mt-2 mb-2 animate__animated animate__shakeY" style="background-color: #fff;padding: 10px;"><i
+                                                    class="fas fa-check"></i> Parabéns! Sua resposta está correta: <b>Variável quantitativa</b> – Os dados exprimem contagens, ou seja, eles podem ser medidos. Isso significa que as respostas assumem um valor numérico. </p>
+                                    </div>
+                                </div>
+                                <div class="esquemaDaBru">
+                                    <p class="enunciado" tabindex="0" >Cor dos olhos </p>
+                                    <button class="alt-c btn-sesc" title="alternativa: ">Qualitativas</button>
+                                    <button class="alt-e btn-sesc" title="alternativa: ">Quantitativas</button>
+                                    <div class="feedbacks">
+                                        <p class="f-negativo text-danger  mt-2 mb-2 animate__animated animate__shakeX" style="background-color: #fff;padding: 10px;"><i
+                                                class="fas fa-times"></i> Tente novamente: <b>Variável quantitativa</b> – Os dados exprimem contagens, ou seja, eles podem ser medidos. Isso significa que as respostas assumem um valor numérico. </p>
+                                        <p class="f-positivo text-success mt-2 mb-2 animate__animated animate__shakeY" style="background-color: #fff;padding: 10px;"><i
+                                                    class="fas fa-check"></i> Parabéns! Sua resposta está correta: <b>Variáveis qualitativas</b> – Os dados exprimem uma qualidade ou um atributo. As respostas não são apresentadas em números. </p>
+                                    </div>
+                                </div>
+                                <div class="esquemaDaBru">
+                                    <p class="enunciado" tabindex="0">Peso</p>
+                                    <button class="alt-e btn-sesc" title="alternativa: ">Qualitativas</button>
+                                    <button class="alt-c btn-sesc" title="alternativa: ">Quantitativas</button>
+                                    <div class="feedbacks">
+                                        <p class="f-negativo text-danger  mt-2 mb-2 animate__animated animate__shakeX" style="background-color: #fff;padding: 10px;"><i
+                                                class="fas fa-times"></i> Tente novamente: <b>Variáveis qualitativas</b> – Os dados exprimem uma qualidade ou um atributo. As respostas não são apresentadas em números. </p>
+                                        <p class="f-positivo text-success mt-2 mb-2 animate__animated animate__shakeY" style="background-color: #fff;padding: 10px;"><i
+                                                    class="fas fa-check"></i> Parabéns! Sua resposta está correta: <b>Variável quantitativa</b> – Os dados exprimem contagens, ou seja, eles podem ser medidos. Isso significa que as respostas assumem um valor numérico. </p>
+                                    </div>
+                                </div>
+                                <div class="esquemaDaBru">
+                                    <p class="enunciado" tabindex="0">Número de faltas na escola </p>
+                                    <button class="alt-e btn-sesc" title="alternativa: ">Qualitativas</button>
+                                    <button class="alt-c btn-sesc" title="alternativa: ">Quantitativas</button>
+                                    <div class="feedbacks">
+                                        <p class="f-negativo text-danger  mt-2 mb-2 animate__animated animate__shakeX" style="background-color: #fff;padding: 10px;"><i
+                                                class="fas fa-times"></i> Tente novamente: <b>Variáveis qualitativas</b> – Os dados exprimem uma qualidade ou um atributo. As respostas não são apresentadas em números.  </p>
+                                        <p class="f-positivo text-success mt-2 mb-2 animate__animated animate__shakeY" style="background-color: #fff;padding: 10px;"><i
+                                                    class="fas fa-check"></i> Parabéns! Sua resposta está correta: <b>Variável quantitativa</b> – Os dados exprimem contagens, ou seja, eles podem ser medidos. Isso significa que as respostas assumem um valor numérico. </p>
+                                    </div>
+                                </div>
+                                <div class="esquemaDaBru">
+                                    <p class="enunciado" tabindex="0">Número de televisores em uma casa </p>
+                                    <button class="alt-e btn-sesc" title="alternativa: ">Qualitativas</button>
+                                    <button class="alt-c btn-sesc" title="alternativa: ">Quantitativas</button>
+                                    <div class="feedbacks">
+                                        <p class="f-negativo text-danger  mt-2 mb-2 animate__animated animate__shakeX" style="background-color: #fff;padding: 10px;"><i
+                                                class="fas fa-times"></i> Tente novamente: <b>Variáveis qualitativas</b> – Os dados exprimem uma qualidade ou um atributo. As respostas não são apresentadas em números. </p>
+                                        <p class="f-positivo text-success mt-2 mb-2 animate__animated animate__shakeY" style="background-color: #fff;padding: 10px;"><i
+                                                    class="fas fa-check"></i> Parabéns! Sua resposta está correta: <b>Variável quantitativa</b> – Os dados exprimem contagens, ou seja, eles podem ser medidos. Isso significa que as respostas assumem um valor numérico. </p>
+                                    </div>
+                                </div>
+                                <div class="esquemaDaBru">
+                                    <p class="enunciado" tabindex="0">Altura</p>
+                                    <button class="alt-e btn-sesc" title="alternativa: ">Qualitativas</button>
+                                    <button class="alt-c btn-sesc" title="alternativa: ">Quantitativas</button>
+                                    <div class="feedbacks">
+                                        <p class="f-negativo text-danger  mt-2 mb-2 animate__animated animate__shakeX" style="background-color: #fff;padding: 10px;"><i
+                                                class="fas fa-times"></i> Tente novamente: <b>Variáveis qualitativas</b> – Os dados exprimem uma qualidade ou um atributo. As respostas não são apresentadas em números. </p>
+                                        <p class="f-positivo text-success mt-2 mb-2 animate__animated animate__shakeY" style="background-color: #fff;padding: 10px;"><i
+                                                    class="fas fa-check"></i> Parabéns! Sua resposta está correta: <b>Variável quantitativa</b> – Os dados exprimem contagens, ou seja, eles podem ser medidos. Isso significa que as respostas assumem um valor numérico. </p>
+                                    </div>
+                                </div>
+                                <div class="esquemaDaBru">
+                                    <p class="enunciado" tabindex="0">Classe social </p>
+                                    <button class="alt-c btn-sesc" title="alternativa: ">Qualitativas</button>
+                                    <button class="alt-e btn-sesc" title="alternativa: ">Quantitativas</button>
+                                    <div class="feedbacks">
+                                        <p class="f-negativo text-danger  mt-2 mb-2 animate__animated animate__shakeX" style="background-color: #fff;padding: 10px;"><i
+                                                class="fas fa-times"></i> Tente novamente: <b>Variável quantitativa</b> – Os dados exprimem contagens, ou seja, eles podem ser medidos. Isso significa que as respostas assumem um valor numérico. </p>
+                                        <p class="f-positivo text-success mt-2 mb-2 animate__animated animate__shakeY" style="background-color: #fff;padding: 10px;"><i
+                                                    class="fas fa-check"></i> Parabéns! Sua resposta está correta: <b>Variáveis qualitativas</b> – Os dados exprimem uma qualidade ou um atributo. As respostas não são apresentadas em números. </p>
+                                    </div>
+                                </div>
+                                <div class="visually-hidden print">
+                                    <p>
+                                        Gabarito: Local de trabalho – Qualitativas<br>
+                                        Idade em anos – Quantitativas <br>Cor dos olhos – Qualitativas <br>Peso – Quantitativas <br>
+                                        Número de faltas na escola – Quantitativas <br>
+                                         Número de televisores em uma casa – Quantitativas <br>
+                                         Altura – Quantitativas <br>
+                                         Classe social – Qualitativas
+                                    </p>
+                                </div>
+                                <p>2. Leia os seguintes trechos da reportagem veiculada pelo G1: 
+                                </p>
+                                <div class="bg-exercicio">
+                                    <h4>81% da população brasileira acessou a internet em 2021, diz pesquisa; TV supera computador como meio </h4>
+                                    <p>A internet foi acessada por 81% da população brasileira em 2021, segundo a pesquisa TIC Domicílios. O levantamento é feito anualmente pelo Centro Regional de Estudos para o Desenvolvimento da Sociedade da Informação (Cetic.br) 
+    
+                                        [...] </p>
+                                    <p>
+                                        A pesquisa foi produzida pelo Cetic.br a partir de entrevistas feitas em 23.950 domicílios entre outubro de 2021 e março de 2022. A TIC Domicílios considerou dados de 21.011 dessas entrevistas (o restante foi destinado para uma pesquisa do Cetic.br sobre uso de internet por crianças e adolescentes). 
+                                    </p>
+                                    <p class="padding-left">
+                                        (Fonte: SILVA, Victor Hugo. 81% da população brasileira acessou a internet em 2021, diz pesquisa; TV supera computador como meio. <b>G1</b>, 21 jun. 2022. Disponível em: https://g1.globo.com/tecnologia/noticia/2022/06/21/81percent-da-populacao-brasileira-acessou-a-internet-em-2021-diz-pesquisa.ghtml. Acesso em: 17 nov. 2022.) 
+                                    </p>
+                                </div>
+                                <p>Com base na reportagem, assinale se as afirmações a seguir são verdadeiras ou falsas.  </p>
+                                
+                                <div class="esquemaDaBru">
+                                    <p class="enunciado" tabindex="0">a) A população desta pesquisa são os 23.950 entrevistados.</p>
+                                    <button class="alt-e btn-sesc" title="alternativa: ">Verdadeiro</button>
+                                    <button class="alt-c btn-sesc" title="alternativa: ">Falso </button>
+                                    <div class="feedbacks">
+                                        <p class="f-negativo text-danger  mt-2 mb-2 animate__animated animate__shakeX" style="background-color: #fff;padding: 10px;"><i
+                                                class="fas fa-times"></i> População é uma coleção completa de todos os elementos a serem estudados. </p>
+                                        <p class="f-positivo text-success mt-2 mb-2 animate__animated animate__shakeY" style="background-color: #fff;padding: 10px;"><i
+                                                    class="fas fa-check"></i> Parabéns! Sua resposta está correta. </p>
+                                    </div>
+                                </div>
+                                
+                                <div class="esquemaDaBru">
+                                    <p class="enunciado" tabindex="0">b) A população desta pesquisa é a população brasileira.  </p>
+                                    <button class="alt-c btn-sesc" title="alternativa: ">Verdadeiro</button>
+                                    <button class="alt-e btn-sesc" title="alternativa: ">Falso </button>
+                                    <div class="feedbacks">
+                                        <p class="f-negativo text-danger  mt-2 mb-2 animate__animated animate__shakeX" style="background-color: #fff;padding: 10px;"><i
+                                                class="fas fa-times"></i> População é uma coleção completa de todos os elementos a serem estudados.   </p>
+                                        <p class="f-positivo text-success mt-2 mb-2 animate__animated animate__shakeY" style="background-color: #fff;padding: 10px;"><i
+                                                    class="fas fa-check"></i> Parabéns! Sua resposta está correta. </p>
+                                    </div>
+                                </div>
+                                
+                                <div class="esquemaDaBru">
+                                    <p class="enunciado" tabindex="0">c) A amostra da pesquisa são os 21.011 entrevistados.  </p>
+                                    <button class="alt-c btn-sesc" title="alternativa: ">Verdadeiro</button>
+                                    <button class="alt-e btn-sesc" title="alternativa: ">Falso </button>
+                                    <div class="feedbacks">
+                                        <p class="f-negativo text-danger  mt-2 mb-2 animate__animated animate__shakeX" style="background-color: #fff;padding: 10px;"><i
+                                                class="fas fa-times"></i> Amostra de pesquisa é uma parte representativa do público a ser pesquisado. </p>
+                                        <p class="f-positivo text-success mt-2 mb-2 animate__animated animate__shakeY" style="background-color: #fff;padding: 10px;"><i
+                                                    class="fas fa-check"></i> Parabéns! Sua resposta está correta. </p>
+                                    </div>
+                                </div>
+                                
+                                <div class="esquemaDaBru">
+                                    <p class="enunciado" tabindex="0">d) A variável considerada nesta pesquisa é o acesso ao computador.  </p>
+                                    <button class="alt-e btn-sesc" title="alternativa: ">Verdadeiro</button>
+                                    <button class="alt-c btn-sesc" title="alternativa: ">Falso </button>
+                                    <div class="feedbacks">
+                                        <p class="f-negativo text-danger  mt-2 mb-2 animate__animated animate__shakeX" style="background-color: #fff;padding: 10px;"><i
+                                                class="fas fa-times"></i> Variável é o valor que assume determinada característica dentro de uma pesquisa.  </p>
+                                        <p class="f-positivo text-success mt-2 mb-2 animate__animated animate__shakeY" style="background-color: #fff;padding: 10px;"><i
+                                                    class="fas fa-check"></i> Parabéns! Sua resposta está correta. </p>
+                                    </div>
+                                </div>
+                                <div class="esquemaDaBru">
+                                    <p class="enunciado" tabindex="0">e) A variável considerada nesta pesquisa é o acesso à internet.</p>
+                                    <button class="alt-c btn-sesc" title="alternativa: ">Verdadeiro</button>
+                                    <button class="alt-e btn-sesc" title="alternativa: ">Falso </button>
+                                    <div class="feedbacks">
+                                        <p class="f-negativo text-danger  mt-2 mb-2 animate__animated animate__shakeX" style="background-color: #fff;padding: 10px;"><i
+                                                class="fas fa-times"></i> Variável é o valor que assume determinada característica dentro de uma pesquisa. </p>
+                                        <p class="f-positivo text-success mt-2 mb-2 animate__animated animate__shakeY" style="background-color: #fff;padding: 10px;"><i
+                                                    class="fas fa-check"></i> Parabéns! Sua resposta está correta. </p>
+                                    </div>
+                                </div>
+                                <div class="esquemaDaBru">
+                                    <p class="enunciado" tabindex="0">f) Uma possível pergunta desta pesquisa poderia ser: “você tem acesso à Internet?”. As respostas poderiam ser “sim” ou “não”, sendo, portanto, classificadas como variável qualitativa.  </p>
+                                    <button class="alt-c btn-sesc" title="alternativa: ">Verdadeiro</button>
+                                    <button class="alt-e btn-sesc" title="alternativa: ">Falso </button>
+                                    <div class="feedbacks">
+                                        <p class="f-negativo text-danger  mt-2 mb-2 animate__animated animate__shakeX" style="background-color: #fff;padding: 10px;"><i
+                                                class="fas fa-times"></i>Variáveis qualitativas são identificadas por palavras.  </p>
+                                        <p class="f-positivo text-success mt-2 mb-2 animate__animated animate__shakeY" style="background-color: #fff;padding: 10px;"><i
+                                                    class="fas fa-check"></i> Parabéns! Sua resposta está correta. </p>
+                                    </div>
+                                </div>
+                                <div class="visually-hidden print">
+                                    <p>Gabarito: 1. F / 2. V / 3. V / 4. F / 5. V / 6. V </p>
+                                </div>
+                                <p>
+                                    3. Na Escola Estadual de Calculópolis, os professores de Matemática, com o intuito de desenvolverem o conteúdo de equações, decidiram realizar o IMC dos estudantes. Para isso, resolveram fazer um estudo sobre o “peso” dos estudantes do ensino médio.  <br>
+                                    Considerando que há 300 estudantes, como se daria a seleção da amostra de 30 estudantes de acordo com cada um dos métodos a seguir? <br>
+                                    Relacione o método (coluna da esquerda) com o processo que o representa (coluna da direita). 
+                                </p>
+                                
+                                <!-- <div class="caixa icone vamos-praticar d-block m-auto" data-aos="zoom-in">
+                                    <h4 class="visually-hidden print">Atividade!</h4>
+                                    <a href="drag/objeto1.html" target="_blank" rel="noopener noreferrer">Clique aqui</a>
+                                </div> -->
+                                <div class="d-block m-auto" data-aos="zoom-in">
+                                    <div id="content-game">
+                                    
+                                        <div class="container-fluid game-body" style="padding:0;">
+                                            <div class="row">
+                                                <div class="col-10 align-self-start d-block m-auto">
+                                                    <div class="row game-descricao-img"><img src="img/pg2-praticar2-ico.png" style="width: 150px;" alt=""></div>
+                                                    <div class="row game-descricao">
+                                                        <p>Clicando e arrastando, organize os itens Método casual, Método sistemático e Método estratificado a seguir.  </p>
+                                                    </div>
+                                                </div>
+                                                <div id="slots" class="col-12 ">
+                                                    <br>
+                                                    <div class="row">
+                                                        <h5>Etapas</h5>
+                                                        <div class="col-12 ">
+                                                            <div class="game-titulo">
+                                                                <p>Método casual </p>
+                                                            </div>
+                                                            <div id="slot-1" class="slot">
+                                                                
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-12 ">
+                                                            <div class="game-titulo">
+                                                                <p>Método sistemático </p>
+                                                            </div>
+                                                        <div id="slot-2" class="slot">
+                                                        
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-12 ">
+                                                        <div class="game-titulo">
+                                                            <p>Método estratificado  </p>
+                                                        </div>
+                                                        <div id="slot-3" class="slot">
+                                                        
+                                                        </div>
+                                                    </div>
+                                                    </div>
+                                                    
+                                                </div>
+                                    <br>
+                                                    <h5>Parágrafos</h5> 
+                                                <div id="cardPile" class="game-itens-container">
+                                                    <div id="card-1" class="card" data-target="slot-1">
+                                                        Fazer uma lista com os 300 estudantes, numerados de 1 a 300, e sortear um número de 1 a 10. Se o sorteado for o 5, por exemplo, a amostra será formada pelos números 5, 15, 25, 35, 45, 55, 65, 75, 85…, ou seja, os múltiplos de 5, até obtermos 30 estudantes.  
+                                                    </div>
+                                                    
+                                                    <div id="card-2" class="card"  data-target="slot-2">
+                                                        Considerar o número de estudantes de cada ano, ou seja, 1º ano, 2º ano e 3º ano. Sortear os estudantes que participarão da pesquisa em quantidades proporcionais ao número de estudantes de cada ano.                     </div>
+                                                    
+                                                    
+                                                    <div id="card-3" class="card"  data-target="slot-3">
+                                                        Fazer uma lista com os 300 estudantes, numerados de 1 a 300. Sortear ao acaso 30 estudantes, que serão os componentes da amostra.  
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>  
+                                </div>
+                                <div class="visually-hidden print">
+                                    <p>
+                                        Gabarito:<br>
+                                        <b>Método casual</b> - Fazer uma lista com os 300 estudantes, numerados de 1 a 300, e sortear um número de 1 a 10. Se o sorteado for o 5, por exemplo, a amostra será formada pelos números 5, 15, 25, 35, 45, 55, 65, 75, 85…, ou seja, os múltiplos de 5, até obtermos 30 estudantes. <br>
+                                        <b>Método sistemático</b> - Considerar o número de estudantes de cada ano, ou seja, 1º ano, 2º ano e 3º ano. Sortear os estudantes que participarão da pesquisa em quantidades proporcionais ao número de estudantes de cada ano. <br>
+                                        Método estratificado -   Fazer uma lista com os 300 estudantes, numerados de 1 a 300. Sortear ao acaso 30 estudantes, que serão os componentes da amostra. <br>
+                                    </p>
+                                </div>
+                                <br>
+                                <p>
+                                    4. A seguir, são apresentados três parágrafos que representam as etapas de uma pesquisa realizada no Brasil no ano de 2020. Depois de lê-los, corresponda cada um desses parágrafos (coluna da direita) às etapas de uma pesquisa estatística (colunas da esquerda). 
+                                </p>
+                                
+                                <div class="d-block m-auto" data-aos="zoom-in">
+                                    <div id="content-game">
+                                    
+                                        <div class="container-fluid game-body" style="padding:0;">
+                                            <div class="row">
+                                                <div class="col-10 align-self-start d-block m-auto">
+                                                    <div class="row game-descricao-img"><img src="img/pg2-praticar2-ico.png" style="width: 150px;" alt=""></div>
+                                                    <div class="row game-descricao">
+                                                        <p>Clicando e arrastando, organize os itens Definição do problema, Planejamento da pesquisa e Coleta de dados no recurso a seguir.  </p>
+                                                    </div>
+                                                </div>
+                                                <div id="slots" class="col-12 ">
+                                                    <br>
+                                                    <div class="row">
+                                                        <h5>Etapas</h5>
+                                                        <div class="col-12 ">
+                                                            <div class="game-titulo">
+                                                                <p>Etapa 1 – Definição do problema </p>
+                                                            </div>
+                                                            <div id="slot-12" class="slot">
+                                                                
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-12 ">
+                                                            <div class="game-titulo">
+                                                                <p>Etapa 2 – Planejamento da pesquisa </p>
+                                                            </div>
+                                                        <div id="slot-22" class="slot">
+                                                        
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-12 ">
+                                                        <div class="game-titulo">
+                                                            <p>Etapa 3 – Coleta de dados </p>
+                                                        </div>
+                                                        <div id="slot-32" class="slot">
+                                                        
+                                                        </div>
+                                                    </div>
+                                                    </div>
+                                                    
+                                                </div>
+                                    <br>
+                                                    <h5>Parágrafos</h5> 
+                                                <div id="cardPile-2" class="game-itens-container">
+                                                    <div id="card-1" class="card" data-target="slot-12">
+                                                        No ano de 2020, o mundo foi assolado por um novo tipo de coronavírus, que modificou drasticamente a rotina dos habitantes do Brasil e do mundo. Por tratar-se de uma nova mutação do vírus, tinham-se poucas informações sobre seus sintomas, sua transmissão e os cuidados necessários. Percebeu-se, logo no início, uma alta letalidade do vírus, principalmente em grupos vulneráveis da população. Com o objetivo de entender o funcionamento do vírus, seu comportamento e sua disseminação dentro da população e ainda determinar percentual de pessoas assintomáticas. 
+                                                    </div>
+                                                    
+                                                    <div id="card-2" class="card"  data-target="slot-22">
+                                                        A Universidade Federal de Pelotas, em parceria com o governo federal, projetou uma pesquisa que visava, cujo público-alvo é a população brasileira. A pesquisa se deu por meio de amostragem. Foram aplicados 250 testes rápidos em cada uma das 133 cidades escolhidas. Cada teste poderia indicar a manifestação do vírus (positivo) ou não (negativo). 
+                                                    </div>
+                                                    
+                                                    
+                                                    <div id="card-3" class="card"  data-target="slot-32">
+                                                        A pesquisa foi aplicada nos dias 4, 5 e 6 de junho de 2020 por pesquisadores do Instituto Brasileiro de Opinião Pública e Estatística (Ibope Inteligência), que estavam uniformizados com jalecos brancos, máscara, proteção facial de acrílico transparente e crachá de identificação. O resultado do teste rápido estava disponível em 15 minutos. Caso o teste fosse positivo, a equipe orientava o morador e remetia a situação para a secretaria de saúde da cidade. 
+                                                    </div>
+                                                    
+                                                
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div> 
+                                </div>
+                                <div class="visually-hidden print">
+                                    <p>
+                                        Gabarito:<br>
+                                        <b>Etapa 1 – Definição do problema</b> - No ano de 2020, o mundo foi assolado por um novo tipo de coronavírus, que modificou drasticamente a rotina dos habitantes do Brasil e do mundo. Por tratar-se de uma nova mutação do vírus, tinham-se poucas informações sobre seus sintomas, sua transmissão e os cuidados necessários. Percebeu-se, logo no início, uma alta letalidade do vírus, principalmente em grupos vulneráveis da população. Com o objetivo de entender o funcionamento do vírus, seu comportamento e sua disseminação dentro da população e ainda determinar percentual de pessoas assintomáticas. <br>
+                                        <b>Etapa 2 – Planejamento da pesquisa</b> - A Universidade Federal de Pelotas, em parceria com o governo federal, projetou uma pesquisa que visava, cujo público-alvo é a população brasileira. A pesquisa se deu por meio de amostragem. Foram aplicados 250 testes rápidos em cada uma das 133 cidades escolhidas. Cada teste poderia indicar a manifestação do vírus (positivo) ou não (negativo). <br>
+                                        <b>Etapa 3 – Coleta de dados</b> - A pesquisa foi aplicada nos dias 4, 5 e 6 de junho de 2020 por pesquisadores do Instituto Brasileiro de Opinião Pública e Estatística (Ibope Inteligência), que estavam uniformizados com jalecos brancos, máscara, proteção facial de acrílico transparente e crachá de identificação. O resultado do teste rápido estava disponível em 15 minutos. Caso o teste fosse positivo, a equipe orientava o morador e remetia a situação para a secretaria de saúde da cidade 
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="modal fade no-print" id="bgmodal-acerto" tabindex="-1" aria-labelledby="bgmodal-passou" aria-hidden="true">
+                            <div class="modal-dialog modal-dialog-centered">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h5 class="modal-title" id="bgmodal-passou"><i class="fas fa-check    "></i> Parabéns, resposta correta! </h5>
+                                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                    </div>
+                                    <div class="modal-body">
+                                        <div class="row">
+                                            <div class="col-12 col-lg-4">
+                                                <img src="drag/img/acerto.png" class="img-fluid" alt="">
+                                            </div>
+                                            <div class="col-12 col-lg-8">
+                                        <p>Muito bem! Este item faz parte desta etapa de produção.
+                                        </p>
+                                        </div></div>
+                                    </div>
+                                    <div class="modal-footer">
+                                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="modal fade no-print" id="bgmodal-erro" tabindex="-1" aria-labelledby="bgmodal-passou" aria-hidden="true">
+                            <div class="modal-dialog modal-dialog-centered">
+                                <div class="modal-content">
+                                    <div class="modal-header bg-danger">
+                                        <h5 class="modal-title" id="bgmodal-passou"><i class="fas fa-times    "></i> Atenção! </h5>
+                                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                    </div>
+                                    <div class="modal-body">
+                                        <div class="row">
+                                            <div class="col-12 col-lg-4">
+                                                <img src="drag/img/erro.png" class="img-fluid" alt="">
+                                            </div>
+                                            <div class="col-12 col-lg-8">
+                                        <p>Este item não faz parte desta etapa de produção. Tente novamente.
+                                        </p>
+                                        </div></div>
+                    
+                                    </div>
+                                    <div class="modal-footer">
+                                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+        
+                    <!-- PG3 -->
+                
+                    
+                    <!-- FIM PG3 -->
+        
+                    <!-- PG4 -->
+                    <div class="pagina">
+                        <div class="bloco1-pg4">
+                            <!-- <img src="img/pg4/img1-dir.png" class="no-print relax-top1 rellax-direita-big" data-rellax-speed="4">
+                            <img src="img/pg4/img2-esq.png" class="no-print rellax-esquerda-big relax-top15" data-rellax-speed="4"> -->
+                            <div class="container">
+                                <h2>Referências</h2>
+                                <p>
+                                    A MINHA geração dos 25-35 anos é muito engraçada, porque a gente teve ICQ, MSN, internet discada, walkman, bate papo uol [...]. <strong>IFunny</strong>, 26 set. 2022. Disponível em: https://br.ifunny.co/picture/n-a-diferentona-gdiferentonabr-a-minha-geracao-dos-25-35-oeYvkt9u9?s=cl. Acesso em: 21 nov. 2022. 
+                                </p>
+                                <p>
+                                    CIDADE de SP teve a cesta básica mais cara do país em julho, chegando a R$ 760,45, diz Dieese; alta de 18,7% em 12 meses. <strong>G1</strong>, 2022. Disponível em: https://g1.globo.com/sp/sao-paulo/noticia/2022/08/06/cidade-de-sp-teve-a-cesta-basica-mais-cara-do-pais-em-julho-chegando-a-r-76045-diz-dieese-alta-de-187percent-em-12-meses.ghtml. Acesso em: 13 dez. 2022. 
+                                </p>
+                                <p>
+                                    DEPARTAMENTO INTERSINDICAL DE ESTATÍSTICA E ESTUDOS SOCIOECONÔMICOS. <strong>Em março, a cesta básica de alimentos teve alta nas 17 capitais pesquisadas pelo DIEESE. [...]</strong>. São Paulo, 6 abr. 2022. Twitter: @dieese_online. Disponível em: https://twitter.com/dieese_online/status/1511833534914351111. Acesso em: 13 dez. 2022. 
+                                </p>
+                                <p>
+                                    GAY, Mara Regina Garcia; SILVA, Willian Raphael. <strong>Araribá Plus</strong>: matemática. 5. ed. São Paulo: Moderna, 2018. 
+                                </p>
+                                <p>
+                                    INSTITUTO BRASILEIRO DE GEOGRAFIA E ESTATÍSTICA. Censo Demográfico 2000. <strong>Questionário básico</strong>. 2000. Disponível em: https://www.ibge.gov.br/censo/quest_basico.pdf. Acesso em: 22 nov. 2022. 
+                                </p>
+                                <p>
+                                    INSTITUTO BRASILEIRO DE GEOGRAFIA E ESTATÍSTICA. Censo Experimental 2019. <strong>Processo seletivo simplificado</strong>. Março, 2019. Disponível em: https://censo2022.ibge.gov.br/apps/treinamentoCenso2020/media/apostila.pdf. Acesso em: 22 nov. 2022. 
+                                </p>
+                                <p>
+                                    MÉTODO estatístico: o que é como se aplica à cadeia de suprimentos. <strong>Neogrid</strong>, 19 ago. 2022. Disponível em: https://neogrid.com/br/blog/metodo-estatistico-como-se-aplica-cadeia-de-suprimentos. Acesso em: 13 dez. 2022. 
+                                </p>
+                                <p>
+                                    SAIBA identificar um recenseador do IBGE. <strong>Diário Gaúcho</strong>, 30 ago. 2022. Disponível em: http://diariogaucho.clicrbs.com.br/rs/dia-a-dia/noticia/2022/08/saiba-identificar-um-recenseador-do-ibge-23255989.html. Acesso em: 3 jan. 2022. 
+                                </p>
+                                <p>
+                                    SELKE, Ricardo de Castilho; HONORATO, Angel; FUGITA, Felipe; TONETT, Michely Alves; GARCIA, Claudia Moreira. <strong>Dimensões, ciências humanas e sociais aplicadas em diálogo com a matemática</strong>. 1. ed. São Paulo: FTD, 2020. 
+                                </p>
+                                <p>
+                                    SILVA, Victor Hugo. 81% da população brasileira acessou a internet em 2021, diz pesquisa; TV supera computador como meio. <strong>G1</strong>, 21 jun. 2022. Disponível em: https://g1.globo.com/tecnologia/noticia/2022/06/21/81percent-da-populacao-brasileira-acessou-a-internet-em-2021-diz-pesquisa.ghtml. Acesso em: 17 nov. 2022. 
+                                </p>
+
+                            </div>
+                        </div>
+                        <!-- <div class="bloco2-pg4">
+                            <img src="img/pg4/img3-dir.png" class="no-print rellax relax-top15 rellax-direita " data-rellax-speed="4">
+                            <img src="img/pg4/img4-esq.png" class="no-print rellax-esquerda-big relax-top15" data-rellax-speed="4">
+                            <img src="img/pg4/img5-dir.png" class="no-print relax-top25 rellax-direita-big" data-rellax-speed="4">
+                            
+                            <div class="container">
+
+                            </div>
+                        </div> -->
+                    </div>
+                    
+                    <!-- FIM PG4 -->
+                    
+                    <!-- PG5 -->
+                    <!-- <div class="pagina">
+                        <div class="bloco1-pg5">
+                            <div class="container col-lg-12">
+                                <h2>Referências</h2>
+
+                            </div>
+                        </div>
+                    </div> -->
+                    
+                    <!-- FIM PG5 -->
+
+        </section>
+        <!-- Paginação do print-->
+        <footer class="pg-footer text-center no-print container-fluid">
+            <ul class="pagination">
+            </ul>
+                <!-- <a href="index.html">            
+                    <div class="tela-inicial"></div>
+                </a> -->
+        </footer>
+    </section>
+
+
+    <!--Jquery-->
+    <script src="assets/js/jquery-3.6.0.min.js"></script>
+    <!-- Bootstrap JavaScript Libraries -->
+    <script src="assets/bootstrap/bootstrap.bundle.min.js"></script>
+
+    <!-- print legado dos técnicos -->
+    <!-- descomentar essa linha caso queira um print.css e um leitor.css exclusivo para o conteudo ao usar o botao imprimir-->
+    <!--
+    -->
+    <script>
+        var custom_print_path = 'assets/print/';
+        var custom_leitor_path = 'assets/print/';
+    </script>    
+    <script src="assets/print/template.config.js"></script>
+    <script src="assets/js/aos.js"></script>
+    <script src="assets/js/audio-player.js"></script>
+    <script src="assets/interativos/esquema_bru/esquema-bru.js"></script>
+    <script src="assets/js/geral.js"></script>
+    <script src="assets/js/rellax.min.js"></script>
+    <!-- <script src="assets/js/jquery-ui.js"></script>
+    <script src="assets/js/jqueryui-touch-punch.js"></script> -->
+    <script src="assets/js/script.js"></script>
+    <!-- <script src="assets/js/draggable.js"></script> -->
+    <script src="assets/js/html2canvas.min.js"></script>
+    <script src="assets/js/scalable.js"></script>
+    <!-- drag -->
+    
+    <!-- <script src='drag/js/dragula.js'></script>
+    <script src="drag/js/game-custom.js"></script> -->
+    <script src="assets/print/print.js"></script>
+    
+    <!--js objeto-->
+    <!-- <script src="assets_obj/js/js-olimpiadas-verdadeiro-ou-falso.js"></script> -->
+    
+    <script>
+        window.addEventListener("load", AOS.refresh);
+    </script>
+    <script>
+        // Adding horizantal parallax scrolling
+        var rellax = new Rellax('.rellax', {
+            // Activate horizantal scrolling
+            // Turned off by default
+            horizontal: false,
+            //Deactivate vertical scrolling
+            vertical: true
+        });
+    </script>
+    <script src='drag/js/dragula.js'></script>
+    <script src="drag/js/game-custom.js"></script>
+    <!-- Versao atual do handtalk -->
+    <script>
+        var scriptElem = document.createElement("script");
+        scriptElem.src = "https://plugin.handtalk.me/web/latest/handtalk.min.js",
+            scriptElem.charset = "UTF-8",
+            scriptElem.onload = function () {
+                window.ht = new HT({
+                    token: "bf5b7efb148a829a126a0e0c9fd533bf",
+                    align: "top",
+                    videoEnabled: true,
+                    ytEmbedReplace: true,
+                    mobileConfig: {
+                        align: "right",
+                        actionsAlign: "top",
+                        customButtonStyle: {
+                            borderRadius: "6px",
+                            size: "38px",
+                            horizontalMargin: "13px",
+                            bottomMargin: "140px",
+                            rightMargin: "40px"
+                        }
+                    }
+                });
+                $('.ht-skip').attr("aria-hidden", "true")
+            },
+            document.body.appendChild(scriptElem);
+    </script>
+    
+</body>
+
+</html>
