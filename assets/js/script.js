@@ -4,13 +4,6 @@ $(document).ready(function() {
     $('.btOnOF').click(function(){
         $(this).parent().toggleClass("isOn");
     }) 
-    
-    $('.pin').click(function(){
-        var eu = $(this);
-        window.setTimeout(function(){
-            eu.addClass("visualizado");
-        }, 250)
-    })
 })
 
 $('.painel-container button').hover(function (){
