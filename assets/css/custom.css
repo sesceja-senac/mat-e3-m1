@@ -1082,7 +1082,7 @@ div.bloco4-pg3 > div.container{
     .bloco5-pg1 .icone.praticar::before, .bloco2-pg1 .icone.praticar::before{
         left: -7px;
     }
-    
+    .game-descricao{padding: 20px 0 10px 10px;}
 }
 .pg-footer a:visited {
     color: #7a7a7a;
