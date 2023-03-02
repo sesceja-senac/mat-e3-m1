@@ -203,12 +203,13 @@ a{
 
 .modal-video {
     background-image: url('../../img/pginicial/Video-apresentacao-gd.png');
-    width: 1133px;
-    height: 708px;
+    max-width: 1133px;
+    height: 100vh;
     background-size: contain;
     background-repeat: no-repeat;
-    padding-left: 260px;
-    padding-top: 120px;
+    background-position: center;
+    padding-left: 13%;
+    padding-top: 100px;
     color: white;
     font-size: 18px;
     position: absolute;
@@ -219,18 +220,19 @@ a{
     margin: auto;
 }
 
-.modal-video video {
-    height: 300px;
+.modal-video iframe {
+    height: 270px;
     width: 600px;
     background-color: white;
     border-radius: 15px;
+    margin: auto;
     margin-top: 15px;
 }
 
 #fechar-video {
     position: absolute;
-    top: 60px;
-    right: 200px;
+    top: 0;
+    right: 150px;
     background-color: white;
     border-radius: 50%;
     width: 40px;
@@ -294,6 +296,13 @@ a{
 @media (max-width: 780px) {
     .img-titulo2{top: 8%;}
     .img-titulo3{top: 24%;}
+    .modal-video{padding-top: 20%;}
+    .modal-video iframe{
+        width: 90%;
+        height: 190px;
+    }
+    .modal-body{width: 85%;}
+    #fechar-video {right: 0;}
 }
 @media (max-width: 560px) {
         #menu {
@@ -307,29 +316,38 @@ a{
             height: auto;
             padding: 15px;
             padding-bottom: 40px;
+            padding-top: 50px;
             background-image: unset;
             background-color: #007981;
             border-radius: 25px;
         }
+        .modal-body{width: 100%;}
         .modal-video iframe {
             width: 100%;
+            height: 300px;
         }
         #fechar-video {
             top: -20px;
-            right: 10px;
+            right: 5px;
         }
         .img-titulo, .img-titulo2, .img-titulo3 {
             display: none;
         }
+        .box{
+            background-position: right -230px center, center;
+            background-size: cover;
+        }
         #icon0 {
-            left: 10px;
-            right: unset;
-            top: 210px;
+            margin: auto;
+            left: 0;
+            right: 0;
+            top: 230px;
         }
         #icon1 {
-            left: unset;
-            right: 10px;
-            top: 470px;
+            margin: auto;
+            left: 0;
+            right: 0;
+            bottom: 100px;
         }
         .hidden-lg {
             display: block;
