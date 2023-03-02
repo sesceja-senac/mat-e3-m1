@@ -859,16 +859,18 @@ div.bloco4-pg3 > div.container{
     width: 100%;
 }
 /* custom */
-.bt-download{
-    width: 144px;
-    height: 63px;
+.bt-questionario{
+    width: 200px;
+    height: 165px;
     display: block;
     margin: 0 auto;
-    background-image: url('../../img/bt_download.png');
+    background-image: url('../../img/bt_questionario.png');
     background-repeat: no-repeat;
+    transition: all .4s;
+    background-size: contain;
 }
-.bt-download:hover{
-    background-image: url('../../img/bt_download_hover.png');
+.bt-questionario:hover{
+    transform: scale(1.1);
 }
 .row .col .bt_quali, .row .col .bt_quant{
     margin: 0 auto;
