@@ -893,6 +893,24 @@ div.bloco4-pg3 > div.container{
     background-size: contain;
     transition: all .4s;
 }
+.alt-c.selected:hover, .alt-e.selected:hover{transform: none !important;}
+.esquemaDaBru .alternativa-imagem{
+    padding: 0 !important;
+    border: 5px solid transparent !important;
+    background: transparent;
+    width: 250px;
+    margin-bottom: 10px;
+}
+.esquemaDaBru .alternativa-imagem.alt-e.selected{
+    border: 5px solid red !important;
+    box-shadow: unset;
+    border-radius: 25px;
+}
+.esquemaDaBru .alternativa-imagem.alt-c.selected{
+    border: 5px solid green !important;
+    box-shadow: unset;
+    border-radius: 25px;
+}
 
 /* custom */
 
