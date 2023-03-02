@@ -32,6 +32,7 @@ figure {
     margin-top: 35px;
     margin-bottom: 35px;
 }
+p,figure{word-wrap: break-word;}
 .col-boxImg{
     z-index: 1;
 }
@@ -1048,7 +1049,7 @@ div.bloco4-pg3 > div.container{
     }
 }
 
-@media (max-width:500px) {
+@media (max-width:580px) {
     .bloco1-pg1 > .container-texto{
         padding-left: 40px;
         padding-right: 65px;
@@ -1056,6 +1057,9 @@ div.bloco4-pg3 > div.container{
     .map-pin .pin{    
         height: 20px;
         width: 20px;
+    }
+    .bloco5-pg1 .icone.praticar::before, .bloco2-pg1 .icone.praticar::before{
+        left: -7px;
     }
     
 }
