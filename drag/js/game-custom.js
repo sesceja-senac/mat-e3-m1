@@ -30,6 +30,13 @@ var listener = function(e) {
 
 document.addEventListener('touchmove', listener, { passive:false });
 
+var slot1 = 0;
+var slot2 = 0;
+var slot3 = 0;
+var slot12 = 0;
+var slot22 = 0;
+var slot32 = 0;
+
 // Solução ao dragindrop
 
 dragula({
@@ -45,7 +52,31 @@ dragula({
 }).on("drop", function(){
   scrollable = true;
 
-  $('#bgmodal-acerto').modal('show')
+    if(slot1 == 0 && $('#slot-1').children().length>0){
+      $('#casual-acerto').modal('show')
+      slot1 = 1
+    }
+    if(slot2 == 0 && $('#slot-2').children().length>0){
+      $('#sistematico-acerto').modal('show')
+      slot2 = 1
+    }
+    if(slot3 == 0 && $('#slot-3').children().length>0){
+      $('#estratificado-acerto').modal('show')
+      slot3 = 1
+    }
+    if(slot12 == 0 && $('#slot-12').children().length>0){
+      $('#primeiro-acerto').modal('show')
+      slot12 = 1
+    }
+    if(slot22 == 0 && $('#slot-22').children().length>0){
+      $('#segundo-acerto').modal('show')
+      slot22 = 1
+    }
+    if(slot32 == 0 && $('#slot-32').children().length>0){
+      $('#terceiro-acerto').modal('show')
+      slot32 = 1
+    }
+
       audio.setAttribute('src','audios/acerto.mp3'); //change the source
       audio.load(); //load the new source
       audio.play(); //play
