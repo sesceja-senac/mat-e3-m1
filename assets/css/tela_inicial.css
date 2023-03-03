@@ -283,9 +283,10 @@ a{
     .modal-video{
         padding-left: 16%;
         padding-top: 70px;
+        background-position: top center;
     }
     #fechar-video{
-        right: 23%;
+        right: 24%;
     }
 }
 @media (max-width: 1080px) {
@@ -295,7 +296,6 @@ a{
     .modal-video{
         padding-left: 18%;
         padding-top: 70px;
-        background-position: top center;
     }
     #menu{
         left: 1%;
