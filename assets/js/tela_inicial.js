@@ -14,5 +14,10 @@ $(document).ready(function() {
       localStorage.setItem('lstvideo-intro', 'true')
     })
 
+    setTimeout(function() {
+      $( ".backdrop, .modal-video" ).animate({
+        opacity: 1
+      }, 300 );
+    }, 3200);
 });
   

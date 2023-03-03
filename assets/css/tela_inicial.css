@@ -199,6 +199,7 @@ a{
     top: 0;
     left: 0;
     z-index: 10;
+    opacity: 0;
 }
 
 .modal-video {
@@ -219,6 +220,7 @@ a{
     right: 0;
     bottom: 0;
     margin: auto;
+    opacity: 0;
 }
 
 .modal-video iframe {
@@ -280,6 +282,7 @@ a{
     bottom: 15px;
 }
 .hidden-lg {display: none;}
+
 @media (max-width: 2500px){
     .modal-video{
         padding-left: 7%;

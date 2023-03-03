@@ -22,20 +22,17 @@
         <img src="assets/img/cabecalho/cabecalho.png" class="img-fluid" alt="">
     </header> -->
     <div class="box">
-        <img src="img/pginicial/barra_titulo1.png" class="img-titulo" data-aos="fade-right" alt="">
-        <img src="img/pginicial/barra_titulo2.png" class="img-titulo2" data-aos="fade-right"data-aos-delay="100" alt="">
-        <img src="img/pginicial/barra_titulo3.png" class="img-titulo3" data-aos="fade-right"data-aos-delay="200" alt="">
-        <img src="img/pginicial/barra_inferior.png" class="sub-titulo img-fluid" data-aos="fade-up" alt="">
+        <img src="img/pginicial/barra_titulo1.png" class="img-titulo aos-init" data-aos="fade-right" data-aos-delay="1500" alt="">
+        <img src="img/pginicial/barra_titulo2.png" class="img-titulo2 aos-init" data-aos="fade-right" data-aos-delay="2000" alt="">
+        <img src="img/pginicial/barra_titulo3.png" class="img-titulo3 aos-init" data-aos="fade-right" data-aos-delay="2500" alt="">
+        <img src="img/pginicial/barra_inferior.png" class="sub-titulo img-fluid" data-aos="fade-up" data-aos-delay="1000" alt="">
         <img src="img/pginicial/mob_titulo.png" alt="" class="hidden-lg">
         <div id="menu">
-            <button class="aneis init botao-video" id="icon0">
+            <button class="aneis init botao-video" id="icon0" data-aos="zoom-in" data-aos-delay="2500">
                 
             </button>
-            <a class="aneis init" id="icon1" href="conteudo.html?page=1">
+            <a class="aneis init" id="icon1" href="conteudo.html?page=1" data-aos="zoom-in" data-aos-delay="3000">
             </a>
-        </div>
-        <div class="barras">
-
         </div>
     </div>
         
@@ -62,6 +59,7 @@
     <script src="assets/js/tela_inicial.js"></script>
 
     <script>
+        AOS.init();
         window.addEventListener("load", AOS.refresh);
     </script>
 </body>
